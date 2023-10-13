@@ -1,0 +1,60 @@
+#mainBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 20px 0px 20px 0px;
+}
+
+#heading {
+    font-size: 50px;
+}
+
+#intro {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#instructions {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#drumkit {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 20px 0px 20px 0px;
+}
+
+#drumkit h3 {
+    color: rgb(165, 51, 231);
+    font-size: 45px;
+    background-color: rgba(255, 255, 255, 0.671);
+    margin: 25px 0px 5px 0px;
+}
+
+#drumkit h4 {
+    color: rgb(31, 2, 48);
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.671);
+    margin: 0;
+}
+
+button {
+    width: 400px;
+    height: 200px;
+    padding: 15px 0px 15px 0px;
+    margin:20px 0px 20px 0px;
+    background-color: aquamarine;
+    background-image: url("./drumming.png");
+    background-size: contain;
+    border-radius: 20px;
+}
